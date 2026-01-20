@@ -1,8 +1,8 @@
 {
 	"name": "SMWApprovedRevsDataSync",
 	"version": "1.0.0",
-	"author": "Your Name",
-	"url": "https://www.mediawiki.org/wiki/Extension:SMWApprovedRevsDataSync",
+	"author": "walkwithdeath",
+	"url": "https://github.com/walkwithdeath/SMWApprovedRevsDataSync",
 	"description": "Bridges ApprovedRevs and Semantic MediaWiki to ensure property tables reflect the 'Approved' revision truth.",
 	"type": "other",
 	"license": "GPL-2.0-or-later",
