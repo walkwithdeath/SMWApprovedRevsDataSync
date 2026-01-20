@@ -1,0 +1,25 @@
+{
+	"name": "SMWApprovedRevsDataSync",
+	"version": "1.0.0",
+	"author": "Your Name",
+	"url": "https://www.mediawiki.org/wiki/Extension:SMWApprovedRevsDataSync",
+	"description": "Bridges ApprovedRevs and Semantic MediaWiki to ensure property tables reflect the 'Approved' revision truth.",
+	"type": "other",
+	"license": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">=1.43.0",
+		"extensions": {
+			"Approved Revs": "*",
+			"SemanticMediaWiki": "*"
+		}
+	},
+	"AutoloadNamespaces": {
+		"SMWApprovedRevsDataSync\\": "src/"
+	},
+	"Hooks": {
+		"ApprovedRevsRevisionApproved": "SMWApprovedRevsDataSync\\SyncEngine::onRevisionApproved",
+		"ApprovedRevsRevisionUnapproved": "SMWApprovedRevsDataSync\\SyncEngine::onRevisionApproved",
+		"BeforePageDisplay": "SMWApprovedRevsDataSync\\SyncEngine::onBeforePageDisplay"
+	},
+	"manifest_version": 2
+}
