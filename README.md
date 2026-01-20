@@ -1,4 +1,4 @@
-# SMWApprovedResDataSync
+# SMWApprovedRevsDataSync
 MediaWiki Extension: SMW &amp; Approved Revs Data Syncing fix.
 
 A specialized bridge extension for MediaWiki 1.43+ that reconciles **ApprovedRevs** revision states with **Semantic MediaWiki (SMW)** property tables.
