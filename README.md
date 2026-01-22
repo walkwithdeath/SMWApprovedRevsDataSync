@@ -26,5 +26,11 @@ This tricks MediaWiki and SMW into believing the "Approved" content is the curre
 2. Ensure the folder name is exactly `SMWApprovedRevsDataSync`.
 3. Add the following to your `LocalSettings.php` **after** both SMW and ApprovedRevs:
 
+##Version
+1.0 Initial Release
+  Same Page Data Alignment
+1.1 Beta (not public release)
+  Table Alignment accross multiple pages
+
 ```php
 wfLoadExtension( 'SMWApprovedRevsDataSync' );
